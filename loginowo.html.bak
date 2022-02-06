@@ -1,0 +1,91 @@
+<html>
+	<head>
+	<style>
+				ul
+				{
+					list-style-type:none;
+					background-color:violet;
+					overflow:hidden;
+					padding:0;
+					margin:0;
+				}
+				
+				li
+				{
+					float:left;
+				}
+				
+				li a
+				{
+				text-decoration:none;
+				padding:10px 40px;
+				display:block;
+				}
+
+				a:link
+			   {
+					color:lavenderblush;	  
+			   }
+
+			   a:hover
+			   {
+					color:mediumorchid;
+					text-decoration: underline;
+			   }
+			   
+			   a:active
+			   {
+					color:plum;
+			   }
+
+				form
+				{
+					border:2px solid mediumpurple;
+					width:300px;
+					height:130px;
+					margin:30px;
+					padding:80px
+				}
+
+                h1
+                {
+                    
+					font:garamond;
+					padding-left:40px;
+					font-size:40px;
+					color:mediumorchid;
+                }
+
+                h3
+                {
+                    color:plum;
+						font-style:italic;
+                        font-size:16px;
+                }
+	</style>
+	</head>
+	
+	<body>
+			<ul>
+			<li><a href="indexowo.html">Home</a></li>
+			<li><a href="contactusowo.html">Contact Us</a></li>
+			<li><a href="supportowo.html">Feedback</a></li>
+			<li><a href="loginowo.html">Login</a></li>
+			<li><a href="registerowo.html">Sign Up</a></li>
+			</ul>
+			
+			<center>
+			
+			<h1> Please login here </h1>
+			<form>
+				Username : <input type="text"> <br><br>
+				Password : <input type="password"> <br><br>
+				
+				<button> Login here </button>
+				 <h3> Doesn't have an account? Register here!<a href="register.html"> </a> </h3>
+			</form>
+			</form>
+			
+			</center>
+	</body>
+</html>
